@@ -41,6 +41,27 @@ Downloads/
 ├── notes.txt
 ├── setup.exe
 └── image2.png
+Folder After
+Bash
+
+Downloads/
+├── Images/
+│   ├── photo.jpg
+│   └── image2.png
+├── Documents/
+│   ├── resume.pdf
+│   └── notes.txt
+├── Videos/
+│   └── video.mp4
+├── Programs/
+│   └── setup.exe
+├── Scripts/
+│   └── script.py
+├── Music/
+├── Compressed/
+└── Others/
+🧩 Code
+Main script file: file_organizer_select_folder.py
 import os
 import shutil
 
@@ -107,102 +128,29 @@ if __name__ == "__main__":
     print("Organizing files, please wait...")
     organize_files()
     print("Completed! Folder has been cleaned and structured successfully.")
+---
 
-Here is that content, formatted as a clean, single README.md file, ready to be copied.
+## 🔧 Technologies Used
 
-I have fixed the structure, added appropriate Markdown formatting for code blocks and lists, and organized it professionally.
-
-Markdown
-
-# Automatic File Organizer – Python Utility Tool
-
-This is a Python-based file management utility that automatically organizes all files inside a selected folder into categorized sub-folders such as **Images**, **Documents**, **Videos**, **Music**, **Programs**, **Scripts**, **Compressed**, and **Others**.
-
-The tool helps keep folders clean, improves workflow, and reduces manual effort in managing downloads or messy directories.
+* Python 3
+* `os` module
+* `shutil` module
 
 ---
 
-## 🚀 Features
+## 📌 Future Enhancements
 
-* Organizes any selected folder (not limited to Downloads)
-* Automatically creates category folders if missing
-* Moves files based on their extensions
-* Handles all common formats for documents, images, videos, scripts, etc.
-* Places unidentified files in an `Others` folder
-* Lightweight, fast, and very easy to use
-* Fully customizable file-type categories
+* Windows `.exe` application version
+* Graphical Interface (GUI)
+* Logging and reporting
+* Custom category creator
+* Drag-and-drop support
 
 ---
 
-## 🖥️ How It Works
+## 📜 Author
 
-1.  Run the Python script.
-2.  Enter the path of the folder you want to organize.
-3.  The tool scans the folder.
-4.  It automatically sorts files into proper sub-folders.
-5.  Finally, it displays a summary of moved files.
+**Mohammed Nouman**
+* Computer Science Engineering Student
+* Organized_Files Project – 2025
 
----
-
-## 📂 Example
-
-### Folder Before
-
-```bash
-Downloads/
-├── photo.jpg
-├── resume.pdf
-├── video.mp4
-├── script.py
-├── notes.txt
-├── setup.exe
-└── image2.png
-Folder After
-Bash
-
-Downloads/
-├── Images/
-│   ├── photo.jpg
-│   └── image2.png
-├── Documents/
-│   ├── resume.pdf
-│   └── notes.txt
-├── Videos/
-│   └── video.mp4
-├── Programs/
-│   └── setup.exe
-├── Scripts/
-│   └── script.py
-├── Music/
-├── Compressed/
-└── Others/
-🧩 Code
-Main script file: file_organizer_select_folder.py
-
-Python
-
-# (Paste your final script here)
-🔧 Technologies Used
-Python 3
-
-os module
-
-shutil module
-
-📌 Future Enhancements
-Windows .exe application version
-
-Graphical Interface (GUI)
-
-Logging and reporting
-
-Custom category creator
-
-Drag-and-drop support
-
-📜 Author
-Mohammed Nouman
-
-Computer Science Engineering Student
-
-Organized_Files Project – 2025
